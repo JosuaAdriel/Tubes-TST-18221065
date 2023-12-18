@@ -29,7 +29,7 @@ class MovieSeeder extends Seeder
                 'posterImg' => 'IT.jpeg'
             ],
             [
-                'title' => 'Willy Wonka & The Chocolate Factory',
+                'title' => 'Willy Wonka',
                 'synopsis'    => 'Film ini menceritakan tentang seorang anak laki-laki yang bernama Charlie Bucket (Peter Ostrum) yang tinggal bersama kedua orang tuanya dan empat orang kakek-neneknya. Mereka tinggal di sebuah rumah kecil yang berada di dekat pabrik cokelat milik Willy Wonka (Gene Wilder). Charlie sangat menyukai cokelat, namun ia tidak pernah bisa membeli cokelat karena keluarganya hidup dalam kemiskinan.',
                 'genre' => 'Fantasi',
                 'durationInMins' => 120,
