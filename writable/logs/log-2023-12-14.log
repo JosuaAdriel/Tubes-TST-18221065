@@ -1,0 +1,1303 @@
+INFO - 2023-12-14 07:07:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 07:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 07:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 07:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 07:08:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 07:08:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 07:08:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 07:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 07:12:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 07:56:50 --> ErrorException: Undefined array key "name"
+in APPPATH/Views/studioview.php on line 8.
+ 1 APPPATH/Views/studioview.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', '/Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Views/studioview.php', 8)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Views/studioview.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1172): CodeIgniter\View\View->render('studioview', [], true)
+ 5 APPPATH/Controllers/StudioController.php(17): view('studioview')
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\StudioController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudioController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-14 08:00:19 --> ErrorException: Undefined variable $movie_item
+in APPPATH/Views/studioview.php on line 18.
+ 1 APPPATH/Views/studioview.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $movie_item', '/Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Views/studioview.php', 18)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Views/studioview.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1172): CodeIgniter\View\View->render('studioview', [], true)
+ 5 APPPATH/Controllers/StudioController.php(17): view('studioview')
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\StudioController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudioController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-14 08:09:26 --> BadMethodCallException: Call to undefined method App\Models\StudioModel::getDataStudio
+in SYSTEMPATH/Model.php on line 872.
+ 1 APPPATH/Controllers/StudioAPI.php(19): CodeIgniter\Model->__call('getDataStudio', [])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\StudioAPI->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudioAPI))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-14 08:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:14:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:14:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:17:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:17:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:17:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:17:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:19:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:21:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:23:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:23:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:23:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:25:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:25:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:25:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:27:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:31:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:34:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:34:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:35:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 08:35:54 --> ErrorException: Undefined variable $studio
+in APPPATH/Views/movie.php on line 47.
+ 1 APPPATH/Views/movie.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $studio', '/Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Views/movie.php', 47)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Views/movie.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1172): CodeIgniter\View\View->render('movie', [], true)
+ 5 APPPATH/Controllers/MovieController.php(14): view('movie')
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-14 08:36:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 08:37:54 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `mo...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `mo...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `mo...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `mo...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Model.php(453): CodeIgniter\Database\BaseBuilder->delete()
+#5 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/BaseModel.php(1115): CodeIgniter\Model->doDelete(Array, false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/MovieAPI.php(81): CodeIgniter\BaseModel->delete(Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(942): App\Controllers\MovieAPI->delete('3')
+#8 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieAPI))
+#9 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#12 {main}
+CRITICAL - 2023-12-14 08:37:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `movie`
+WHERE `id` IN :id:', [...], false)
+ 2 SYSTEMPATH/Model.php(453): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH/BaseModel.php(1115): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH/Controllers/MovieAPI.php(81): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieAPI->delete('3')
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieAPI))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-14 08:37:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `movie`
+WHERE `id` IN (\'3\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `movie`
+WHERE `id` IN (\'3\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `movie`
+WHERE `id` IN :id:', [...], false)
+ 4 SYSTEMPATH/Model.php(453): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH/BaseModel.php(1115): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH/Controllers/MovieAPI.php(81): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieAPI->delete('3')
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieAPI))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-14 08:37:54 --> [Caused by] mysqli_sql_exception: Unknown column 'id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `movie`
+WHERE `id` IN (\'3\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `movie`
+WHERE `id` IN (\'3\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `movie`
+WHERE `id` IN (\'3\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `movie`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH/Model.php(453): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH/BaseModel.php(1115): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH/Controllers/MovieAPI.php(81): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieAPI->delete('3')
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieAPI))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-14 08:38:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:38:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 08:38:58 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `mo...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `mo...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `mo...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `mo...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Model.php(453): CodeIgniter\Database\BaseBuilder->delete()
+#5 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/BaseModel.php(1115): CodeIgniter\Model->doDelete(Array, false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/MovieAPI.php(81): CodeIgniter\BaseModel->delete(Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(942): App\Controllers\MovieAPI->delete('4')
+#8 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieAPI))
+#9 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#12 {main}
+CRITICAL - 2023-12-14 08:38:58 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `movie`
+WHERE `id` IN :id:', [...], false)
+ 2 SYSTEMPATH/Model.php(453): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH/BaseModel.php(1115): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH/Controllers/MovieAPI.php(81): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieAPI->delete('4')
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieAPI))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-14 08:38:58 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `movie`
+WHERE `id` IN (\'4\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `movie`
+WHERE `id` IN (\'4\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `movie`
+WHERE `id` IN :id:', [...], false)
+ 4 SYSTEMPATH/Model.php(453): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH/BaseModel.php(1115): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH/Controllers/MovieAPI.php(81): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieAPI->delete('4')
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieAPI))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-14 08:38:58 --> [Caused by] mysqli_sql_exception: Unknown column 'id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `movie`
+WHERE `id` IN (\'4\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `movie`
+WHERE `id` IN (\'4\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `movie`
+WHERE `id` IN (\'4\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `movie`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH/Model.php(453): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH/BaseModel.php(1115): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH/Controllers/MovieAPI.php(81): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieAPI->delete('4')
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieAPI))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-14 08:39:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 08:39:40 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `mo...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `mo...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `mo...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `mo...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Model.php(453): CodeIgniter\Database\BaseBuilder->delete()
+#5 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/BaseModel.php(1115): CodeIgniter\Model->doDelete(Array, false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/MovieAPI.php(81): CodeIgniter\BaseModel->delete(Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(942): App\Controllers\MovieAPI->delete('4')
+#8 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieAPI))
+#9 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#12 {main}
+CRITICAL - 2023-12-14 08:39:40 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `movie`
+WHERE `id` IN :id:', [...], false)
+ 2 SYSTEMPATH/Model.php(453): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH/BaseModel.php(1115): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH/Controllers/MovieAPI.php(81): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieAPI->delete('4')
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieAPI))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-14 08:39:40 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `movie`
+WHERE `id` IN (\'4\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `movie`
+WHERE `id` IN (\'4\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `movie`
+WHERE `id` IN :id:', [...], false)
+ 4 SYSTEMPATH/Model.php(453): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH/BaseModel.php(1115): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH/Controllers/MovieAPI.php(81): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieAPI->delete('4')
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieAPI))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-14 08:39:40 --> [Caused by] mysqli_sql_exception: Unknown column 'id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `movie`
+WHERE `id` IN (\'4\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `movie`
+WHERE `id` IN (\'4\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `movie`
+WHERE `id` IN (\'4\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `movie`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH/Model.php(453): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH/BaseModel.php(1115): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH/Controllers/MovieAPI.php(81): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieAPI->delete('4')
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieAPI))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-14 08:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:41:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 08:41:10 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `mo...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `mo...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `mo...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `mo...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Model.php(453): CodeIgniter\Database\BaseBuilder->delete()
+#5 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/BaseModel.php(1115): CodeIgniter\Model->doDelete(Array, false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/MovieAPI.php(81): CodeIgniter\BaseModel->delete(Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(942): App\Controllers\MovieAPI->delete('3')
+#8 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieAPI))
+#9 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#12 {main}
+CRITICAL - 2023-12-14 08:41:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `movie`
+WHERE `id` IN :id:', [...], false)
+ 2 SYSTEMPATH/Model.php(453): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH/BaseModel.php(1115): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH/Controllers/MovieAPI.php(81): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieAPI->delete('3')
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieAPI))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-14 08:41:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `movie`
+WHERE `id` IN (\'3\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `movie`
+WHERE `id` IN (\'3\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `movie`
+WHERE `id` IN :id:', [...], false)
+ 4 SYSTEMPATH/Model.php(453): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH/BaseModel.php(1115): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH/Controllers/MovieAPI.php(81): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieAPI->delete('3')
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieAPI))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-14 08:41:10 --> [Caused by] mysqli_sql_exception: Unknown column 'id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `movie`
+WHERE `id` IN (\'3\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `movie`
+WHERE `id` IN (\'3\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `movie`
+WHERE `id` IN (\'3\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `movie`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH/Model.php(453): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH/BaseModel.php(1115): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH/Controllers/MovieAPI.php(81): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieAPI->delete('3')
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieAPI))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-14 08:43:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 08:44:02 --> mysqli_sql_exception: Table 'bioskop.movies' doesn't exist in /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `mo...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `mo...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `mo...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `mo...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+#5 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/MovieAPI.php(81): App\Models\Movie->deleteMovie('4')
+#6 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(942): App\Controllers\MovieAPI->delete('4')
+#7 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieAPI))
+#8 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2023-12-14 08:44:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'bioskop.movies' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `movies`
+WHERE `movieID` = :movieID:', [...], false)
+ 2 APPPATH/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH/Controllers/MovieAPI.php(81): App\Models\Movie->deleteMovie('4')
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieAPI->delete('4')
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieAPI))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-14 08:44:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'bioskop.movies' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `movies`
+WHERE `movieID` = \'4\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `movies`
+WHERE `movieID` = \'4\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `movies`
+WHERE `movieID` = :movieID:', [...], false)
+ 4 APPPATH/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+ 5 APPPATH/Controllers/MovieAPI.php(81): App\Models\Movie->deleteMovie('4')
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieAPI->delete('4')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieAPI))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-14 08:44:02 --> [Caused by] mysqli_sql_exception: Table 'bioskop.movies' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `movies`
+WHERE `movieID` = \'4\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `movies`
+WHERE `movieID` = \'4\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `movies`
+WHERE `movieID` = \'4\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `movies`
+WHERE `movieID` = :movieID:', [...], false)
+ 5 APPPATH/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+ 6 APPPATH/Controllers/MovieAPI.php(81): App\Models\Movie->deleteMovie('4')
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieAPI->delete('4')
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieAPI))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-14 08:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:44:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:44:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:45:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:45:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:45:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 09:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 09:25:28 --> ErrorException: Undefined array key "id"
+in APPPATH/Views/studioview.php on line 19.
+ 1 APPPATH/Views/studioview.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', '/Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Views/studioview.php', 19)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Views/studioview.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1172): CodeIgniter\View\View->render('studioview', [], true)
+ 5 APPPATH/Controllers/StudioController.php(17): view('studioview')
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\StudioController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudioController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-14 09:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 09:26:10 --> ErrorException: Undefined variable $movies
+in APPPATH/Views/scheduleview.php on line 4.
+ 1 APPPATH/Views/scheduleview.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $movies', '/Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Views/scheduleview.php', 4)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Views/scheduleview.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1172): CodeIgniter\View\View->render('scheduleview', [], true)
+ 5 APPPATH/Controllers/ScheduleController.php(21): view('scheduleview')
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ScheduleController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-14 09:40:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 09:40:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 09:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 09:45:23 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `st...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `st...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `st...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `st...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Model.php(453): CodeIgniter\Database\BaseBuilder->delete()
+#5 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/BaseModel.php(1115): CodeIgniter\Model->doDelete(Array, false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/StudioAPI.php(41): CodeIgniter\BaseModel->delete(Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(942): App\Controllers\StudioAPI->delete('3')
+#8 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudioAPI))
+#9 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#12 {main}
+CRITICAL - 2023-12-14 09:45:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `studio`
+WHERE `id` IN :id:', [...], false)
+ 2 SYSTEMPATH/Model.php(453): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH/BaseModel.php(1115): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH/Controllers/StudioAPI.php(41): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\StudioAPI->delete('3')
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudioAPI))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-14 09:45:23 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `studio`
+WHERE `id` IN (\'3\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `studio`
+WHERE `id` IN (\'3\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `studio`
+WHERE `id` IN :id:', [...], false)
+ 4 SYSTEMPATH/Model.php(453): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH/BaseModel.php(1115): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH/Controllers/StudioAPI.php(41): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\StudioAPI->delete('3')
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudioAPI))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-14 09:45:23 --> [Caused by] mysqli_sql_exception: Unknown column 'id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `studio`
+WHERE `id` IN (\'3\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `studio`
+WHERE `id` IN (\'3\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `studio`
+WHERE `id` IN (\'3\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `studio`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH/Model.php(453): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH/BaseModel.php(1115): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH/Controllers/StudioAPI.php(41): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\StudioAPI->delete('3')
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudioAPI))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-14 09:47:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 09:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 09:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 09:47:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 09:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 09:48:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 09:48:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 09:49:36 --> ErrorException: Undefined property: App\Controllers\ScheduleController::$movieModel
+in APPPATH/Controllers/ScheduleController.php on line 36.
+ 1 APPPATH/Controllers/ScheduleController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ScheduleController::$movieModel', '/Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/ScheduleController.php', 36)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ScheduleController->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-14 09:50:19 --> ErrorException: Undefined property: App\Controllers\ScheduleController::$movieModel
+in APPPATH/Controllers/ScheduleController.php on line 38.
+ 1 APPPATH/Controllers/ScheduleController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ScheduleController::$movieModel', '/Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/ScheduleController.php', 38)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ScheduleController->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-14 09:51:28 --> ErrorException: Undefined property: App\Controllers\ScheduleController::$movieModel
+in APPPATH/Controllers/ScheduleController.php on line 39.
+ 1 APPPATH/Controllers/ScheduleController.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ScheduleController::$movieModel', '/Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/ScheduleController.php', 39)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ScheduleController->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+ERROR - 2023-12-14 09:54:44 --> mysqli_sql_exception: Unknown column 'movie.id' in 'where clause' in /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/BaseModel.php(577): CodeIgniter\Model->doFind(true, '1')
+#6 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/ScheduleController.php(39): CodeIgniter\BaseModel->find('1')
+#7 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(942): App\Controllers\ScheduleController->create()
+#8 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+#9 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#12 {main}
+CRITICAL - 2023-12-14 09:54:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'movie.id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `movie`
+WHERE `movie`.`id` = :movie.id:', [...], false)
+ 2 SYSTEMPATH/Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(577): CodeIgniter\Model->doFind(true, '1')
+ 4 APPPATH/Controllers/ScheduleController.php(39): CodeIgniter\BaseModel->find('1')
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ScheduleController->create()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-14 09:54:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'movie.id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `movie`
+WHERE `movie`.`id` = \'1\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `movie`
+WHERE `movie`.`id` = \'1\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `movie`
+WHERE `movie`.`id` = :movie.id:', [...], false)
+ 4 SYSTEMPATH/Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(577): CodeIgniter\Model->doFind(true, '1')
+ 6 APPPATH/Controllers/ScheduleController.php(39): CodeIgniter\BaseModel->find('1')
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ScheduleController->create()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-14 09:54:44 --> [Caused by] mysqli_sql_exception: Unknown column 'movie.id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT *
+FROM `movie`
+WHERE `movie`.`id` = \'1\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `movie`
+WHERE `movie`.`id` = \'1\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `movie`
+WHERE `movie`.`id` = \'1\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `movie`
+WHERE `movie`.`id` = :movie.id:', [...], false)
+ 5 SYSTEMPATH/Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(577): CodeIgniter\Model->doFind(true, '1')
+ 7 APPPATH/Controllers/ScheduleController.php(39): CodeIgniter\BaseModel->find('1')
+ 8 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ScheduleController->create()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+ERROR - 2023-12-14 10:01:33 --> mysqli_sql_exception: Unknown column 'movie.id' in 'where clause' in /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/BaseModel.php(577): CodeIgniter\Model->doFind(true, '1')
+#6 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/ScheduleController.php(39): CodeIgniter\BaseModel->find('1')
+#7 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(942): App\Controllers\ScheduleController->create()
+#8 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+#9 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#12 {main}
+CRITICAL - 2023-12-14 10:01:33 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'movie.id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `movie`
+WHERE `movie`.`id` = :movie.id:', [...], false)
+ 2 SYSTEMPATH/Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(577): CodeIgniter\Model->doFind(true, '1')
+ 4 APPPATH/Controllers/ScheduleController.php(39): CodeIgniter\BaseModel->find('1')
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ScheduleController->create()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-14 10:01:33 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'movie.id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `movie`
+WHERE `movie`.`id` = \'1\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `movie`
+WHERE `movie`.`id` = \'1\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `movie`
+WHERE `movie`.`id` = :movie.id:', [...], false)
+ 4 SYSTEMPATH/Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(577): CodeIgniter\Model->doFind(true, '1')
+ 6 APPPATH/Controllers/ScheduleController.php(39): CodeIgniter\BaseModel->find('1')
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ScheduleController->create()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-14 10:01:33 --> [Caused by] mysqli_sql_exception: Unknown column 'movie.id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT *
+FROM `movie`
+WHERE `movie`.`id` = \'1\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `movie`
+WHERE `movie`.`id` = \'1\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `movie`
+WHERE `movie`.`id` = \'1\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `movie`
+WHERE `movie`.`id` = :movie.id:', [...], false)
+ 5 SYSTEMPATH/Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(577): CodeIgniter\Model->doFind(true, '1')
+ 7 APPPATH/Controllers/ScheduleController.php(39): CodeIgniter\BaseModel->find('1')
+ 8 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ScheduleController->create()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-14 10:11:03 --> ErrorException: Undefined property: App\Controllers\ScheduleController::$scheduleModel
+in APPPATH/Controllers/ScheduleController.php on line 57.
+ 1 APPPATH/Controllers/ScheduleController.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ScheduleController::$scheduleModel', '/Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/ScheduleController.php', 57)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ScheduleController->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-14 10:12:35 --> Error: Call to undefined method App\Controllers\ScheduleController::respondCreated()
+in APPPATH/Controllers/ScheduleController.php on line 63.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ScheduleController->create()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-14 10:19:33 --> ErrorException: Undefined variable $movieModel
+in APPPATH/Controllers/ScheduleController.php on line 15.
+ 1 APPPATH/Controllers/ScheduleController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $movieModel', '/Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/ScheduleController.php', 15)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ScheduleController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-14 10:19:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 10:19:38 --> ErrorException: Undefined variable $movieModel
+in APPPATH/Controllers/ScheduleController.php on line 15.
+ 1 APPPATH/Controllers/ScheduleController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $movieModel', '/Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/ScheduleController.php', 15)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ScheduleController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-14 10:20:02 --> Error: Call to undefined method App\Controllers\ScheduleController::respondCreated()
+in APPPATH/Controllers/ScheduleController.php on line 63.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ScheduleController->create()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-14 10:23:23 --> ErrorException: Trait "App\Controllers\ResponseTrait" not found
+in APPPATH/Controllers/ScheduleController.php on line 9.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-12-14 10:23:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:18:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:19:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:40:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:40:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:44:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:45:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:47:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:47:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:47:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:47:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:51:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:01:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:06:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:06:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:06:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:06:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:06:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 14:06:59 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `schedule_ibfk_2` FOREIGN KEY (`studioID`) REFERENCES `studio` (`studioID`)) in /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `st...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `st...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `st...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `st...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Models/StudioModel.php(15): CodeIgniter\Database\BaseBuilder->delete()
+#5 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/StudioAPI.php(79): App\Models\StudioModel->deleteStudio('11')
+#6 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(942): App\Controllers\StudioAPI->delete('11')
+#7 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudioAPI))
+#8 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2023-12-14 14:06:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `schedule_ibfk_2` FOREIGN KEY (`studioID`) REFERENCES `studio` (`studioID`))
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `studio`
+WHERE `studioID` = :studioID:', [...], false)
+ 2 APPPATH/Models/StudioModel.php(15): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH/Controllers/StudioAPI.php(79): App\Models\StudioModel->deleteStudio('11')
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\StudioAPI->delete('11')
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudioAPI))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-14 14:06:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `schedule_ibfk_2` FOREIGN KEY (`studioID`) REFERENCES `studio` (`studioID`))
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `studio`
+WHERE `studioID` = \'11\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `studio`
+WHERE `studioID` = \'11\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `studio`
+WHERE `studioID` = :studioID:', [...], false)
+ 4 APPPATH/Models/StudioModel.php(15): CodeIgniter\Database\BaseBuilder->delete()
+ 5 APPPATH/Controllers/StudioAPI.php(79): App\Models\StudioModel->deleteStudio('11')
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\StudioAPI->delete('11')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudioAPI))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-14 14:06:59 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `schedule_ibfk_2` FOREIGN KEY (`studioID`) REFERENCES `studio` (`studioID`))
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `studio`
+WHERE `studioID` = \'11\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `studio`
+WHERE `studioID` = \'11\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `studio`
+WHERE `studioID` = \'11\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `studio`
+WHERE `studioID` = :studioID:', [...], false)
+ 5 APPPATH/Models/StudioModel.php(15): CodeIgniter\Database\BaseBuilder->delete()
+ 6 APPPATH/Controllers/StudioAPI.php(79): App\Models\StudioModel->deleteStudio('11')
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\StudioAPI->delete('11')
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudioAPI))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-14 14:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:08:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:39:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 14:54:29 --> BadMethodCallException: Call to undefined method App\Models\StudioModel::getSchedulesForStudio
+in SYSTEMPATH/Model.php on line 872.
+ 1 APPPATH/Controllers/ScheduleController.php(57): CodeIgniter\Model->__call('getSchedulesForStudio', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ScheduleController->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+ERROR - 2023-12-14 14:54:51 --> mysqli_sql_exception: Unknown column 'movie.id' in 'where clause' in /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/BaseModel.php(577): CodeIgniter\Model->doFind(true, '1')
+#6 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/ScheduleController.php(61): CodeIgniter\BaseModel->find('1')
+#7 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(942): App\Controllers\ScheduleController->create()
+#8 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+#9 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#12 {main}
+CRITICAL - 2023-12-14 14:54:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'movie.id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `movie`
+WHERE `movie`.`id` = :movie.id:', [...], false)
+ 2 SYSTEMPATH/Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(577): CodeIgniter\Model->doFind(true, '1')
+ 4 APPPATH/Controllers/ScheduleController.php(61): CodeIgniter\BaseModel->find('1')
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ScheduleController->create()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-14 14:54:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'movie.id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `movie`
+WHERE `movie`.`id` = \'1\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `movie`
+WHERE `movie`.`id` = \'1\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `movie`
+WHERE `movie`.`id` = :movie.id:', [...], false)
+ 4 SYSTEMPATH/Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(577): CodeIgniter\Model->doFind(true, '1')
+ 6 APPPATH/Controllers/ScheduleController.php(61): CodeIgniter\BaseModel->find('1')
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ScheduleController->create()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-14 14:54:51 --> [Caused by] mysqli_sql_exception: Unknown column 'movie.id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT *
+FROM `movie`
+WHERE `movie`.`id` = \'1\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `movie`
+WHERE `movie`.`id` = \'1\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `movie`
+WHERE `movie`.`id` = \'1\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `movie`
+WHERE `movie`.`id` = :movie.id:', [...], false)
+ 5 SYSTEMPATH/Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(577): CodeIgniter\Model->doFind(true, '1')
+ 7 APPPATH/Controllers/ScheduleController.php(61): CodeIgniter\BaseModel->find('1')
+ 8 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ScheduleController->create()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-14 14:55:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:55:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:58:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:25:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:27:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:27:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:27:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:27:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:27:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:27:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:29:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 15:29:30 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `schedule_ibfk_1` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`)) in /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `mo...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `mo...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `mo...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `mo...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+#5 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/MovieAPI.php(93): App\Models\Movie->deleteMovie('11')
+#6 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(942): App\Controllers\MovieAPI->delete('11')
+#7 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieAPI))
+#8 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2023-12-14 15:29:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `schedule_ibfk_1` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`))
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `movie`
+WHERE `movieID` = :movieID:', [...], false)
+ 2 APPPATH/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH/Controllers/MovieAPI.php(93): App\Models\Movie->deleteMovie('11')
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieAPI->delete('11')
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieAPI))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-14 15:29:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `schedule_ibfk_1` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`))
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `movie`
+WHERE `movieID` = \'11\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `movie`
+WHERE `movieID` = \'11\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `movie`
+WHERE `movieID` = :movieID:', [...], false)
+ 4 APPPATH/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+ 5 APPPATH/Controllers/MovieAPI.php(93): App\Models\Movie->deleteMovie('11')
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieAPI->delete('11')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieAPI))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-14 15:29:30 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `schedule_ibfk_1` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`))
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `movie`
+WHERE `movieID` = \'11\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `movie`
+WHERE `movieID` = \'11\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `movie`
+WHERE `movieID` = \'11\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `movie`
+WHERE `movieID` = :movieID:', [...], false)
+ 5 APPPATH/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+ 6 APPPATH/Controllers/MovieAPI.php(93): App\Models\Movie->deleteMovie('11')
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieAPI->delete('11')
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieAPI))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-14 15:30:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:30:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:38:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 15:38:53 --> ErrorException: Undefined array key "id"
+in APPPATH/Views/studioview.php on line 17.
+ 1 APPPATH/Views/studioview.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', '/Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Views/studioview.php', 17)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Views/studioview.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1172): CodeIgniter\View\View->render('studioview', [], true)
+ 5 APPPATH/Controllers/StudioController.php(17): view('studioview')
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\StudioController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudioController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-14 15:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:40:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:40:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 15:40:57 --> ErrorException: Declaration of App\Controllers\StudioAPI::update() must be compatible with CodeIgniter\RESTful\ResourceController::update($id = null)
+in APPPATH/Controllers/StudioAPI.php on line 75.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-12-14 15:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 15:41:03 --> ErrorException: Declaration of App\Controllers\StudioAPI::update() must be compatible with CodeIgniter\RESTful\ResourceController::update($id = null)
+in APPPATH/Controllers/StudioAPI.php on line 75.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-12-14 15:47:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:47:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:48:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:51:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 15:51:35 --> ErrorException: Declaration of App\Controllers\StudioAPI::update($studioID) must be compatible with CodeIgniter\RESTful\ResourceController::update($id = null)
+in APPPATH/Controllers/StudioAPI.php on line 75.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-12-14 15:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 15:51:55 --> mysqli_sql_exception: Unknown column 'studio.id' in 'where clause' in /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/BaseModel.php(577): CodeIgniter\Model->doFind(true, '1')
+#6 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/StudioAPI.php(82): CodeIgniter\BaseModel->find('1')
+#7 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(942): App\Controllers\StudioAPI->update('1')
+#8 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudioAPI))
+#9 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#12 {main}
+CRITICAL - 2023-12-14 15:51:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'studio.id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `studio`
+WHERE `studio`.`id` = :studio.id:', [...], false)
+ 2 SYSTEMPATH/Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(577): CodeIgniter\Model->doFind(true, '1')
+ 4 APPPATH/Controllers/StudioAPI.php(82): CodeIgniter\BaseModel->find('1')
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\StudioAPI->update('1')
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudioAPI))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-14 15:51:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'studio.id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `studio`
+WHERE `studio`.`id` = \'1\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `studio`
+WHERE `studio`.`id` = \'1\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `studio`
+WHERE `studio`.`id` = :studio.id:', [...], false)
+ 4 SYSTEMPATH/Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(577): CodeIgniter\Model->doFind(true, '1')
+ 6 APPPATH/Controllers/StudioAPI.php(82): CodeIgniter\BaseModel->find('1')
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\StudioAPI->update('1')
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudioAPI))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-14 15:51:55 --> [Caused by] mysqli_sql_exception: Unknown column 'studio.id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT *
+FROM `studio`
+WHERE `studio`.`id` = \'1\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `studio`
+WHERE `studio`.`id` = \'1\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `studio`
+WHERE `studio`.`id` = \'1\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `studio`
+WHERE `studio`.`id` = :studio.id:', [...], false)
+ 5 SYSTEMPATH/Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(577): CodeIgniter\Model->doFind(true, '1')
+ 7 APPPATH/Controllers/StudioAPI.php(82): CodeIgniter\BaseModel->find('1')
+ 8 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\StudioAPI->update('1')
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudioAPI))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-14 15:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 15:55:02 --> mysqli_sql_exception: Unknown column 'studio.id' in 'where clause' in /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/BaseModel.php(577): CodeIgniter\Model->doFind(true, '1')
+#6 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/StudioAPI.php(82): CodeIgniter\BaseModel->find('1')
+#7 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(942): App\Controllers\StudioAPI->update('1')
+#8 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudioAPI))
+#9 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#12 {main}
+CRITICAL - 2023-12-14 15:55:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'studio.id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `studio`
+WHERE `studio`.`id` = :studio.id:', [...], false)
+ 2 SYSTEMPATH/Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(577): CodeIgniter\Model->doFind(true, '1')
+ 4 APPPATH/Controllers/StudioAPI.php(82): CodeIgniter\BaseModel->find('1')
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\StudioAPI->update('1')
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudioAPI))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-14 15:55:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'studio.id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `studio`
+WHERE `studio`.`id` = \'1\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `studio`
+WHERE `studio`.`id` = \'1\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `studio`
+WHERE `studio`.`id` = :studio.id:', [...], false)
+ 4 SYSTEMPATH/Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(577): CodeIgniter\Model->doFind(true, '1')
+ 6 APPPATH/Controllers/StudioAPI.php(82): CodeIgniter\BaseModel->find('1')
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\StudioAPI->update('1')
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudioAPI))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-14 15:55:02 --> [Caused by] mysqli_sql_exception: Unknown column 'studio.id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT *
+FROM `studio`
+WHERE `studio`.`id` = \'1\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `studio`
+WHERE `studio`.`id` = \'1\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `studio`
+WHERE `studio`.`id` = \'1\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `studio`
+WHERE `studio`.`id` = :studio.id:', [...], false)
+ 5 SYSTEMPATH/Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(577): CodeIgniter\Model->doFind(true, '1')
+ 7 APPPATH/Controllers/StudioAPI.php(82): CodeIgniter\BaseModel->find('1')
+ 8 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\StudioAPI->update('1')
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudioAPI))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-14 15:55:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 15:55:22 --> mysqli_sql_exception: Unknown column 'studio.id' in 'where clause' in /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/BaseModel.php(577): CodeIgniter\Model->doFind(true, '1')
+#6 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/StudioAPI.php(82): CodeIgniter\BaseModel->find('1')
+#7 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(942): App\Controllers\StudioAPI->update('1')
+#8 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudioAPI))
+#9 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#12 {main}
+CRITICAL - 2023-12-14 15:55:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'studio.id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `studio`
+WHERE `studio`.`id` = :studio.id:', [...], false)
+ 2 SYSTEMPATH/Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(577): CodeIgniter\Model->doFind(true, '1')
+ 4 APPPATH/Controllers/StudioAPI.php(82): CodeIgniter\BaseModel->find('1')
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\StudioAPI->update('1')
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudioAPI))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-14 15:55:22 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'studio.id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `studio`
+WHERE `studio`.`id` = \'1\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `studio`
+WHERE `studio`.`id` = \'1\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `studio`
+WHERE `studio`.`id` = :studio.id:', [...], false)
+ 4 SYSTEMPATH/Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(577): CodeIgniter\Model->doFind(true, '1')
+ 6 APPPATH/Controllers/StudioAPI.php(82): CodeIgniter\BaseModel->find('1')
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\StudioAPI->update('1')
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudioAPI))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-14 15:55:22 --> [Caused by] mysqli_sql_exception: Unknown column 'studio.id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT *
+FROM `studio`
+WHERE `studio`.`id` = \'1\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `studio`
+WHERE `studio`.`id` = \'1\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `studio`
+WHERE `studio`.`id` = \'1\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `studio`
+WHERE `studio`.`id` = :studio.id:', [...], false)
+ 5 SYSTEMPATH/Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(577): CodeIgniter\Model->doFind(true, '1')
+ 7 APPPATH/Controllers/StudioAPI.php(82): CodeIgniter\BaseModel->find('1')
+ 8 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\StudioAPI->update('1')
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudioAPI))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-14 15:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:57:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:57:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:57:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:57:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:59:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:59:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:02:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:02:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:02:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:02:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:03:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:03:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:05:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:05:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:05:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:06:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:06:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:06:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:07:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:07:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:07:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:08:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:15:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:15:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:15:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:16:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:22:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:22:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:23:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:23:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:23:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:27:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:27:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 16:28:00 --> Error: Call to undefined function App\Controllers\generateSeats()
+in APPPATH/Controllers/StudioAPI.php on line 103.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\StudioAPI->update('1')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudioAPI))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-14 16:28:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:28:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:29:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:29:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

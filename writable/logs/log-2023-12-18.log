@@ -1,0 +1,1815 @@
+INFO - 2023-12-18 02:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:17:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:17:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 02:17:15 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+in APPPATH/Views/dashboard.php on line 29.
+ 1 APPPATH/Views/dashboard.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', '/Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Views/dashboard.php', 29)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Views/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1172): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH/Controllers/Home.php(39): view('dashboard')
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-18 02:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:22:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:27:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:33:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:33:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:34:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:34:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:34:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:34:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:41:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:42:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:42:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:42:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:42:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:42:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:42:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:43:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:43:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:43:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:47:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:56:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:56:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:57:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:58:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:58:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:58:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:58:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 02:58:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:04:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:04:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:04:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:05:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:05:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:23:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:23:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:24:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:24:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:25:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:25:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:25:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:25:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:27:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:28:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:28:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:28:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:31:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:36:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:39:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:43:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:46:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:46:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:48:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:48:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:49:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:49:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:49:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:49:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:52:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:54:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:54:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:54:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:55:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:58:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 03:58:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 04:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 04:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 04:02:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 04:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 04:04:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 04:05:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 04:08:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 04:08:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 04:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 04:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 04:41:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 04:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 04:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 04:42:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 04:43:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 04:46:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:19:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:27:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:27:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:30:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:32:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:33:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:34:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:34:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:34:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:34:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:34:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:36:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:36:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:36:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:37:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:39:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:39:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:39:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:39:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:40:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:40:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:40:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:40:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:44:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:46:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:47:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:47:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:47:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 05:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 06:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 06:51:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 06:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 06:51:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 06:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 06:54:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 06:54:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 07:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 07:31:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 07:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 07:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 07:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 07:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 07:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 07:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 07:40:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 07:41:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 07:41:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 07:41:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 07:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 07:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:45:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:45:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:45:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:46:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:46:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:46:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:46:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:46:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:46:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:47:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:47:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:47:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:47:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:47:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:47:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:47:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:51:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:51:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:55:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:55:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:55:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:55:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:55:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:55:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:57:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:57:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:57:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:57:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:57:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:58:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:58:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:59:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:59:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:59:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:59:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 08:59:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:00:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:00:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:00:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:05:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:05:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:06:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:17:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:17:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:17:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-18 09:17:49 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `delete_cascade` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON UPDATE CASCADE) in /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `Mo...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `Mo...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `Mo...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Mo...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+#5 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('13')
+#6 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(942): App\Controllers\MovieController->delete('13')
+#7 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2023-12-18 09:17:49 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `delete_cascade` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON UPDATE CASCADE)
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Movie`
+WHERE `movieID` = :movieID:', [...], false)
+ 2 APPPATH/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('13')
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->delete('13')
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-18 09:17:49 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `delete_cascade` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON UPDATE CASCADE)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `Movie`
+WHERE `movieID` = \'13\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `Movie`
+WHERE `movieID` = \'13\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Movie`
+WHERE `movieID` = :movieID:', [...], false)
+ 4 APPPATH/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+ 5 APPPATH/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('13')
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->delete('13')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-18 09:17:49 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `delete_cascade` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON UPDATE CASCADE)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `Movie`
+WHERE `movieID` = \'13\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `Movie`
+WHERE `movieID` = \'13\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `Movie`
+WHERE `movieID` = \'13\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Movie`
+WHERE `movieID` = :movieID:', [...], false)
+ 5 APPPATH/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+ 6 APPPATH/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('13')
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->delete('13')
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-18 09:18:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:18:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-18 09:18:36 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `delete_cascade` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON UPDATE CASCADE) in /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `Mo...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `Mo...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `Mo...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Mo...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+#5 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('13')
+#6 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(942): App\Controllers\MovieController->delete('13')
+#7 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2023-12-18 09:18:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `delete_cascade` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON UPDATE CASCADE)
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Movie`
+WHERE `movieID` = :movieID:', [...], false)
+ 2 APPPATH/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('13')
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->delete('13')
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-18 09:18:36 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `delete_cascade` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON UPDATE CASCADE)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `Movie`
+WHERE `movieID` = \'13\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `Movie`
+WHERE `movieID` = \'13\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Movie`
+WHERE `movieID` = :movieID:', [...], false)
+ 4 APPPATH/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+ 5 APPPATH/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('13')
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->delete('13')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-18 09:18:36 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `delete_cascade` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON UPDATE CASCADE)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `Movie`
+WHERE `movieID` = \'13\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `Movie`
+WHERE `movieID` = \'13\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `Movie`
+WHERE `movieID` = \'13\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Movie`
+WHERE `movieID` = :movieID:', [...], false)
+ 5 APPPATH/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+ 6 APPPATH/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('13')
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->delete('13')
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-18 09:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-18 09:19:23 --> mysqli_sql_exception: Can't update table 'movie' in stored function/trigger because it is already used by statement which invoked this stored function/trigger in /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `Movie` ...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `Movie` ...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `Movie` ...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `Movie` ...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Model.php(393): CodeIgniter\Database\BaseBuilder->update()
+#5 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/BaseModel.php(985): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Model.php(805): CodeIgniter\BaseModel->update(NULL, Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/MovieController.php(85): CodeIgniter\Model->update()
+#8 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(942): App\Controllers\MovieController->update('13')
+#9 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+#10 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#13 {main}
+CRITICAL - 2023-12-18 09:19:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Can't update table 'movie' in stored function/trigger because it is already used by statement which invoked this stored function/trigger
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `Movie` SET `title` = :title:
+WHERE `movieID` = :movieID:', [...], false)
+ 2 SYSTEMPATH/Model.php(393): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH/BaseModel.php(985): CodeIgniter\Model->doUpdate(null, [...])
+ 4 SYSTEMPATH/Model.php(805): CodeIgniter\BaseModel->update(null, [...])
+ 5 APPPATH/Controllers/MovieController.php(85): CodeIgniter\Model->update()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->update('13')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-18 09:19:23 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Can't update table 'movie' in stored function/trigger because it is already used by statement which invoked this stored function/trigger
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `Movie` SET `title` = \'Test1234\'
+WHERE `movieID` = \'13\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `Movie` SET `title` = \'Test1234\'
+WHERE `movieID` = \'13\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `Movie` SET `title` = :title:
+WHERE `movieID` = :movieID:', [...], false)
+ 4 SYSTEMPATH/Model.php(393): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH/BaseModel.php(985): CodeIgniter\Model->doUpdate(null, [...])
+ 6 SYSTEMPATH/Model.php(805): CodeIgniter\BaseModel->update(null, [...])
+ 7 APPPATH/Controllers/MovieController.php(85): CodeIgniter\Model->update()
+ 8 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->update('13')
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-18 09:19:23 --> [Caused by] mysqli_sql_exception: Can't update table 'movie' in stored function/trigger because it is already used by statement which invoked this stored function/trigger
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `Movie` SET `title` = \'Test1234\'
+WHERE `movieID` = \'13\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `Movie` SET `title` = \'Test1234\'
+WHERE `movieID` = \'13\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `Movie` SET `title` = \'Test1234\'
+WHERE `movieID` = \'13\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `Movie` SET `title` = :title:
+WHERE `movieID` = :movieID:', [...], false)
+ 5 SYSTEMPATH/Model.php(393): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH/BaseModel.php(985): CodeIgniter\Model->doUpdate(null, [...])
+ 7 SYSTEMPATH/Model.php(805): CodeIgniter\BaseModel->update(null, [...])
+ 8 APPPATH/Controllers/MovieController.php(85): CodeIgniter\Model->update()
+ 9 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->update('13')
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-18 09:19:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-18 09:19:59 --> mysqli_sql_exception: Can't update table 'movie' in stored function/trigger because it is already used by statement which invoked this stored function/trigger in /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `Movie` ...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `Movie` ...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `Movie` ...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `Movie` ...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Model.php(393): CodeIgniter\Database\BaseBuilder->update()
+#5 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/BaseModel.php(985): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Model.php(805): CodeIgniter\BaseModel->update(NULL, Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/MovieController.php(85): CodeIgniter\Model->update()
+#8 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(942): App\Controllers\MovieController->update('13')
+#9 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+#10 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#13 {main}
+CRITICAL - 2023-12-18 09:19:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Can't update table 'movie' in stored function/trigger because it is already used by statement which invoked this stored function/trigger
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `Movie` SET `title` = :title:
+WHERE `movieID` = :movieID:', [...], false)
+ 2 SYSTEMPATH/Model.php(393): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH/BaseModel.php(985): CodeIgniter\Model->doUpdate(null, [...])
+ 4 SYSTEMPATH/Model.php(805): CodeIgniter\BaseModel->update(null, [...])
+ 5 APPPATH/Controllers/MovieController.php(85): CodeIgniter\Model->update()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->update('13')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-18 09:19:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Can't update table 'movie' in stored function/trigger because it is already used by statement which invoked this stored function/trigger
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `Movie` SET `title` = \'Test1234\'
+WHERE `movieID` = \'13\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `Movie` SET `title` = \'Test1234\'
+WHERE `movieID` = \'13\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `Movie` SET `title` = :title:
+WHERE `movieID` = :movieID:', [...], false)
+ 4 SYSTEMPATH/Model.php(393): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH/BaseModel.php(985): CodeIgniter\Model->doUpdate(null, [...])
+ 6 SYSTEMPATH/Model.php(805): CodeIgniter\BaseModel->update(null, [...])
+ 7 APPPATH/Controllers/MovieController.php(85): CodeIgniter\Model->update()
+ 8 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->update('13')
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-18 09:19:59 --> [Caused by] mysqli_sql_exception: Can't update table 'movie' in stored function/trigger because it is already used by statement which invoked this stored function/trigger
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `Movie` SET `title` = \'Test1234\'
+WHERE `movieID` = \'13\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `Movie` SET `title` = \'Test1234\'
+WHERE `movieID` = \'13\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `Movie` SET `title` = \'Test1234\'
+WHERE `movieID` = \'13\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `Movie` SET `title` = :title:
+WHERE `movieID` = :movieID:', [...], false)
+ 5 SYSTEMPATH/Model.php(393): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH/BaseModel.php(985): CodeIgniter\Model->doUpdate(null, [...])
+ 7 SYSTEMPATH/Model.php(805): CodeIgniter\BaseModel->update(null, [...])
+ 8 APPPATH/Controllers/MovieController.php(85): CodeIgniter\Model->update()
+ 9 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->update('13')
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-18 09:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-18 09:20:07 --> mysqli_sql_exception: Can't update table 'movie' in stored function/trigger because it is already used by statement which invoked this stored function/trigger in /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `Movie` ...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `Movie` ...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `Movie` ...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `Movie` ...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Model.php(393): CodeIgniter\Database\BaseBuilder->update()
+#5 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/BaseModel.php(985): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Model.php(805): CodeIgniter\BaseModel->update(NULL, Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/MovieController.php(85): CodeIgniter\Model->update()
+#8 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(942): App\Controllers\MovieController->update('20')
+#9 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+#10 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#13 {main}
+CRITICAL - 2023-12-18 09:20:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Can't update table 'movie' in stored function/trigger because it is already used by statement which invoked this stored function/trigger
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `Movie` SET `title` = :title:
+WHERE `movieID` = :movieID:', [...], false)
+ 2 SYSTEMPATH/Model.php(393): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH/BaseModel.php(985): CodeIgniter\Model->doUpdate(null, [...])
+ 4 SYSTEMPATH/Model.php(805): CodeIgniter\BaseModel->update(null, [...])
+ 5 APPPATH/Controllers/MovieController.php(85): CodeIgniter\Model->update()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->update('20')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-18 09:20:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Can't update table 'movie' in stored function/trigger because it is already used by statement which invoked this stored function/trigger
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `Movie` SET `title` = \'asa\'
+WHERE `movieID` = \'20\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `Movie` SET `title` = \'asa\'
+WHERE `movieID` = \'20\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `Movie` SET `title` = :title:
+WHERE `movieID` = :movieID:', [...], false)
+ 4 SYSTEMPATH/Model.php(393): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH/BaseModel.php(985): CodeIgniter\Model->doUpdate(null, [...])
+ 6 SYSTEMPATH/Model.php(805): CodeIgniter\BaseModel->update(null, [...])
+ 7 APPPATH/Controllers/MovieController.php(85): CodeIgniter\Model->update()
+ 8 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->update('20')
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-18 09:20:07 --> [Caused by] mysqli_sql_exception: Can't update table 'movie' in stored function/trigger because it is already used by statement which invoked this stored function/trigger
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `Movie` SET `title` = \'asa\'
+WHERE `movieID` = \'20\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `Movie` SET `title` = \'asa\'
+WHERE `movieID` = \'20\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `Movie` SET `title` = \'asa\'
+WHERE `movieID` = \'20\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `Movie` SET `title` = :title:
+WHERE `movieID` = :movieID:', [...], false)
+ 5 SYSTEMPATH/Model.php(393): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH/BaseModel.php(985): CodeIgniter\Model->doUpdate(null, [...])
+ 7 SYSTEMPATH/Model.php(805): CodeIgniter\BaseModel->update(null, [...])
+ 8 APPPATH/Controllers/MovieController.php(85): CodeIgniter\Model->update()
+ 9 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->update('20')
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-18 09:22:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-18 09:22:11 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `delete_cascade` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON UPDATE CASCADE) in /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `Mo...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `Mo...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `Mo...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Mo...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+#5 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('13')
+#6 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(942): App\Controllers\MovieController->delete('13')
+#7 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2023-12-18 09:22:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `delete_cascade` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON UPDATE CASCADE)
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Movie`
+WHERE `movieID` = :movieID:', [...], false)
+ 2 APPPATH/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('13')
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->delete('13')
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-18 09:22:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `delete_cascade` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON UPDATE CASCADE)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `Movie`
+WHERE `movieID` = \'13\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `Movie`
+WHERE `movieID` = \'13\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Movie`
+WHERE `movieID` = :movieID:', [...], false)
+ 4 APPPATH/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+ 5 APPPATH/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('13')
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->delete('13')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-18 09:22:11 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `delete_cascade` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON UPDATE CASCADE)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `Movie`
+WHERE `movieID` = \'13\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `Movie`
+WHERE `movieID` = \'13\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `Movie`
+WHERE `movieID` = \'13\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Movie`
+WHERE `movieID` = :movieID:', [...], false)
+ 5 APPPATH/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+ 6 APPPATH/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('13')
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->delete('13')
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-18 09:22:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:22:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:22:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:24:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-18 09:24:41 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `delete_cascade` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON UPDATE CASCADE) in /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `Mo...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `Mo...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `Mo...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Mo...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+#5 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('13')
+#6 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(942): App\Controllers\MovieController->delete('13')
+#7 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2023-12-18 09:24:41 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `delete_cascade` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON UPDATE CASCADE)
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Movie`
+WHERE `movieID` = :movieID:', [...], false)
+ 2 APPPATH/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('13')
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->delete('13')
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-18 09:24:41 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `delete_cascade` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON UPDATE CASCADE)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `Movie`
+WHERE `movieID` = \'13\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `Movie`
+WHERE `movieID` = \'13\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Movie`
+WHERE `movieID` = :movieID:', [...], false)
+ 4 APPPATH/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+ 5 APPPATH/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('13')
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->delete('13')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-18 09:24:41 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `delete_cascade` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON UPDATE CASCADE)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `Movie`
+WHERE `movieID` = \'13\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `Movie`
+WHERE `movieID` = \'13\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `Movie`
+WHERE `movieID` = \'13\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Movie`
+WHERE `movieID` = :movieID:', [...], false)
+ 5 APPPATH/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+ 6 APPPATH/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('13')
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->delete('13')
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-18 09:24:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-18 09:24:44 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `delete_cascade` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON UPDATE CASCADE) in /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `Mo...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `Mo...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `Mo...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Mo...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+#5 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('15')
+#6 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(942): App\Controllers\MovieController->delete('15')
+#7 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2023-12-18 09:24:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `delete_cascade` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON UPDATE CASCADE)
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Movie`
+WHERE `movieID` = :movieID:', [...], false)
+ 2 APPPATH/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('15')
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->delete('15')
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-18 09:24:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `delete_cascade` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON UPDATE CASCADE)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `Movie`
+WHERE `movieID` = \'15\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `Movie`
+WHERE `movieID` = \'15\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Movie`
+WHERE `movieID` = :movieID:', [...], false)
+ 4 APPPATH/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+ 5 APPPATH/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('15')
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->delete('15')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-18 09:24:44 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `delete_cascade` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON UPDATE CASCADE)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `Movie`
+WHERE `movieID` = \'15\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `Movie`
+WHERE `movieID` = \'15\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `Movie`
+WHERE `movieID` = \'15\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Movie`
+WHERE `movieID` = :movieID:', [...], false)
+ 5 APPPATH/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+ 6 APPPATH/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('15')
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->delete('15')
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-18 09:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-18 09:25:08 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `delete_cascade` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON UPDATE CASCADE) in /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `Mo...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `Mo...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `Mo...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Mo...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+#5 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('15')
+#6 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(942): App\Controllers\MovieController->delete('15')
+#7 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2023-12-18 09:25:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `delete_cascade` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON UPDATE CASCADE)
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Movie`
+WHERE `movieID` = :movieID:', [...], false)
+ 2 APPPATH/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('15')
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->delete('15')
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-18 09:25:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `delete_cascade` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON UPDATE CASCADE)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `Movie`
+WHERE `movieID` = \'15\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `Movie`
+WHERE `movieID` = \'15\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Movie`
+WHERE `movieID` = :movieID:', [...], false)
+ 4 APPPATH/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+ 5 APPPATH/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('15')
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->delete('15')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-18 09:25:08 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `delete_cascade` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON UPDATE CASCADE)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `Movie`
+WHERE `movieID` = \'15\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `Movie`
+WHERE `movieID` = \'15\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `Movie`
+WHERE `movieID` = \'15\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Movie`
+WHERE `movieID` = :movieID:', [...], false)
+ 5 APPPATH/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+ 6 APPPATH/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('15')
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->delete('15')
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-18 09:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:27:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-18 09:28:01 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `fk_studio` FOREIGN KEY (`studioID`) REFERENCES `studio` (`studioID`) ON DELETE CASCADE) in /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `st...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `st...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `st...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `st...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Models/StudioModel.php(15): CodeIgniter\Database\BaseBuilder->delete()
+#5 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/StudioController.php(112): App\Models\StudioModel->deleteStudio('22')
+#6 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(942): App\Controllers\StudioController->delete('22')
+#7 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudioController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2023-12-18 09:28:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `fk_studio` FOREIGN KEY (`studioID`) REFERENCES `studio` (`studioID`) ON DELETE CASCADE)
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `studio`
+WHERE `studioID` = :studioID:', [...], false)
+ 2 APPPATH/Models/StudioModel.php(15): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH/Controllers/StudioController.php(112): App\Models\StudioModel->deleteStudio('22')
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\StudioController->delete('22')
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudioController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-18 09:28:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `fk_studio` FOREIGN KEY (`studioID`) REFERENCES `studio` (`studioID`) ON DELETE CASCADE)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `studio`
+WHERE `studioID` = \'22\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `studio`
+WHERE `studioID` = \'22\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `studio`
+WHERE `studioID` = :studioID:', [...], false)
+ 4 APPPATH/Models/StudioModel.php(15): CodeIgniter\Database\BaseBuilder->delete()
+ 5 APPPATH/Controllers/StudioController.php(112): App\Models\StudioModel->deleteStudio('22')
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\StudioController->delete('22')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudioController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-18 09:28:01 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `fk_studio` FOREIGN KEY (`studioID`) REFERENCES `studio` (`studioID`) ON DELETE CASCADE)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `studio`
+WHERE `studioID` = \'22\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `studio`
+WHERE `studioID` = \'22\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `studio`
+WHERE `studioID` = \'22\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `studio`
+WHERE `studioID` = :studioID:', [...], false)
+ 5 APPPATH/Models/StudioModel.php(15): CodeIgniter\Database\BaseBuilder->delete()
+ 6 APPPATH/Controllers/StudioController.php(112): App\Models\StudioModel->deleteStudio('22')
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\StudioController->delete('22')
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudioController))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-18 09:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:31:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-18 09:31:49 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `fk_studio` FOREIGN KEY (`studioID`) REFERENCES `studio` (`studioID`) ON DELETE CASCADE) in /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `st...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `st...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `st...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `st...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Models/StudioModel.php(15): CodeIgniter\Database\BaseBuilder->delete()
+#5 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/StudioController.php(112): App\Models\StudioModel->deleteStudio('22')
+#6 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(942): App\Controllers\StudioController->delete('22')
+#7 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudioController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2023-12-18 09:31:49 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `fk_studio` FOREIGN KEY (`studioID`) REFERENCES `studio` (`studioID`) ON DELETE CASCADE)
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `studio`
+WHERE `studioID` = :studioID:', [...], false)
+ 2 APPPATH/Models/StudioModel.php(15): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH/Controllers/StudioController.php(112): App\Models\StudioModel->deleteStudio('22')
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\StudioController->delete('22')
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudioController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-18 09:31:49 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `fk_studio` FOREIGN KEY (`studioID`) REFERENCES `studio` (`studioID`) ON DELETE CASCADE)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `studio`
+WHERE `studioID` = \'22\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `studio`
+WHERE `studioID` = \'22\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `studio`
+WHERE `studioID` = :studioID:', [...], false)
+ 4 APPPATH/Models/StudioModel.php(15): CodeIgniter\Database\BaseBuilder->delete()
+ 5 APPPATH/Controllers/StudioController.php(112): App\Models\StudioModel->deleteStudio('22')
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\StudioController->delete('22')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudioController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-18 09:31:49 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `fk_studio` FOREIGN KEY (`studioID`) REFERENCES `studio` (`studioID`) ON DELETE CASCADE)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `studio`
+WHERE `studioID` = \'22\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `studio`
+WHERE `studioID` = \'22\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `studio`
+WHERE `studioID` = \'22\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `studio`
+WHERE `studioID` = :studioID:', [...], false)
+ 5 APPPATH/Models/StudioModel.php(15): CodeIgniter\Database\BaseBuilder->delete()
+ 6 APPPATH/Controllers/StudioController.php(112): App\Models\StudioModel->deleteStudio('22')
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\StudioController->delete('22')
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudioController))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-18 09:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:32:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:32:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:32:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-18 09:37:22 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `fk_movieID` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON DELETE CASCADE) in /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `Mo...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `Mo...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `Mo...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Mo...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+#5 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('13')
+#6 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(942): App\Controllers\MovieController->delete('13')
+#7 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2023-12-18 09:37:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `fk_movieID` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON DELETE CASCADE)
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Movie`
+WHERE `movieID` = :movieID:', [...], false)
+ 2 APPPATH/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('13')
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->delete('13')
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-18 09:37:22 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `fk_movieID` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON DELETE CASCADE)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `Movie`
+WHERE `movieID` = \'13\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `Movie`
+WHERE `movieID` = \'13\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Movie`
+WHERE `movieID` = :movieID:', [...], false)
+ 4 APPPATH/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+ 5 APPPATH/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('13')
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->delete('13')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-18 09:37:22 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `fk_movieID` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON DELETE CASCADE)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `Movie`
+WHERE `movieID` = \'13\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `Movie`
+WHERE `movieID` = \'13\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `Movie`
+WHERE `movieID` = \'13\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Movie`
+WHERE `movieID` = :movieID:', [...], false)
+ 5 APPPATH/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+ 6 APPPATH/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('13')
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->delete('13')
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-18 09:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-18 09:40:30 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `fk_movieID` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON DELETE CASCADE) in /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `Mo...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `Mo...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `Mo...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Mo...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+#5 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('20')
+#6 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(942): App\Controllers\MovieController->delete('20')
+#7 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2023-12-18 09:40:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `fk_movieID` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON DELETE CASCADE)
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Movie`
+WHERE `movieID` = :movieID:', [...], false)
+ 2 APPPATH/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('20')
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->delete('20')
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-18 09:40:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `fk_movieID` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON DELETE CASCADE)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `Movie`
+WHERE `movieID` = \'20\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `Movie`
+WHERE `movieID` = \'20\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Movie`
+WHERE `movieID` = :movieID:', [...], false)
+ 4 APPPATH/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+ 5 APPPATH/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('20')
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->delete('20')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-18 09:40:30 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `fk_movieID` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON DELETE CASCADE)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `Movie`
+WHERE `movieID` = \'20\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `Movie`
+WHERE `movieID` = \'20\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `Movie`
+WHERE `movieID` = \'20\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Movie`
+WHERE `movieID` = :movieID:', [...], false)
+ 5 APPPATH/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+ 6 APPPATH/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('20')
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->delete('20')
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-18 09:44:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-18 09:44:14 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `fk_studio` FOREIGN KEY (`studioID`) REFERENCES `studio` (`studioID`) ON DELETE CASCADE) in /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `st...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `st...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `st...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `st...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Models/StudioModel.php(15): CodeIgniter\Database\BaseBuilder->delete()
+#5 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/StudioController.php(112): App\Models\StudioModel->deleteStudio('7')
+#6 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(942): App\Controllers\StudioController->delete('7')
+#7 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudioController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2023-12-18 09:44:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `fk_studio` FOREIGN KEY (`studioID`) REFERENCES `studio` (`studioID`) ON DELETE CASCADE)
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `studio`
+WHERE `studioID` = :studioID:', [...], false)
+ 2 APPPATH/Models/StudioModel.php(15): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH/Controllers/StudioController.php(112): App\Models\StudioModel->deleteStudio('7')
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\StudioController->delete('7')
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudioController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-18 09:44:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `fk_studio` FOREIGN KEY (`studioID`) REFERENCES `studio` (`studioID`) ON DELETE CASCADE)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `studio`
+WHERE `studioID` = \'7\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `studio`
+WHERE `studioID` = \'7\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `studio`
+WHERE `studioID` = :studioID:', [...], false)
+ 4 APPPATH/Models/StudioModel.php(15): CodeIgniter\Database\BaseBuilder->delete()
+ 5 APPPATH/Controllers/StudioController.php(112): App\Models\StudioModel->deleteStudio('7')
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\StudioController->delete('7')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudioController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-18 09:44:14 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `fk_studio` FOREIGN KEY (`studioID`) REFERENCES `studio` (`studioID`) ON DELETE CASCADE)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `studio`
+WHERE `studioID` = \'7\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `studio`
+WHERE `studioID` = \'7\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `studio`
+WHERE `studioID` = \'7\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `studio`
+WHERE `studioID` = :studioID:', [...], false)
+ 5 APPPATH/Models/StudioModel.php(15): CodeIgniter\Database\BaseBuilder->delete()
+ 6 APPPATH/Controllers/StudioController.php(112): App\Models\StudioModel->deleteStudio('7')
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\StudioController->delete('7')
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudioController))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-18 09:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:45:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:45:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:45:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:45:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-18 09:45:42 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `fk_movieID` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON DELETE CASCADE) in /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `Mo...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `Mo...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `Mo...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Mo...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+#5 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('13')
+#6 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(942): App\Controllers\MovieController->delete('13')
+#7 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2023-12-18 09:45:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `fk_movieID` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON DELETE CASCADE)
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Movie`
+WHERE `movieID` = :movieID:', [...], false)
+ 2 APPPATH/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('13')
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->delete('13')
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-18 09:45:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `fk_movieID` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON DELETE CASCADE)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `Movie`
+WHERE `movieID` = \'13\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `Movie`
+WHERE `movieID` = \'13\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Movie`
+WHERE `movieID` = :movieID:', [...], false)
+ 4 APPPATH/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+ 5 APPPATH/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('13')
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->delete('13')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-18 09:45:42 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `fk_movieID` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON DELETE CASCADE)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `Movie`
+WHERE `movieID` = \'13\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `Movie`
+WHERE `movieID` = \'13\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `Movie`
+WHERE `movieID` = \'13\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Movie`
+WHERE `movieID` = :movieID:', [...], false)
+ 5 APPPATH/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+ 6 APPPATH/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('13')
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->delete('13')
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-18 09:46:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:46:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:46:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:46:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:47:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 09:47:04 --> ErrorException: unlink(posterImg/1702870613_0d70bc94b9e06337dd2a.png): No such file or directory
+in APPPATH/Controllers/MovieController.php on line 101.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(posterImg/1702870613_0d70bc94b9e06337dd2a.png): No such file or directory', '/Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/MovieController.php', 101)
+ 2 APPPATH/Controllers/MovieController.php(101): unlink('posterImg/1702870613_0d70bc94b9e06337dd2a.png')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->delete('20')
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-18 09:47:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 09:47:07 --> ErrorException: unlink(posterImg/1702870613_0d70bc94b9e06337dd2a.png): No such file or directory
+in APPPATH/Controllers/MovieController.php on line 101.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(posterImg/1702870613_0d70bc94b9e06337dd2a.png): No such file or directory', '/Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/MovieController.php', 101)
+ 2 APPPATH/Controllers/MovieController.php(101): unlink('posterImg/1702870613_0d70bc94b9e06337dd2a.png')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->delete('20')
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-18 09:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-18 09:47:12 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `fk_movieID` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON DELETE CASCADE) in /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `Mo...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `Mo...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `Mo...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Mo...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+#5 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('19')
+#6 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(942): App\Controllers\MovieController->delete('19')
+#7 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2023-12-18 09:47:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `fk_movieID` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON DELETE CASCADE)
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Movie`
+WHERE `movieID` = :movieID:', [...], false)
+ 2 APPPATH/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('19')
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->delete('19')
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-18 09:47:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `fk_movieID` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON DELETE CASCADE)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `Movie`
+WHERE `movieID` = \'19\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `Movie`
+WHERE `movieID` = \'19\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Movie`
+WHERE `movieID` = :movieID:', [...], false)
+ 4 APPPATH/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+ 5 APPPATH/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('19')
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->delete('19')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-18 09:47:12 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `fk_movieID` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON DELETE CASCADE)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `Movie`
+WHERE `movieID` = \'19\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `Movie`
+WHERE `movieID` = \'19\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `Movie`
+WHERE `movieID` = \'19\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Movie`
+WHERE `movieID` = :movieID:', [...], false)
+ 5 APPPATH/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+ 6 APPPATH/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('19')
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->delete('19')
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-18 09:47:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-18 09:47:16 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `fk_movieID` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON DELETE CASCADE) in /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `Mo...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `Mo...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `Mo...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Mo...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+#5 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('18')
+#6 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(942): App\Controllers\MovieController->delete('18')
+#7 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2023-12-18 09:47:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `fk_movieID` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON DELETE CASCADE)
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Movie`
+WHERE `movieID` = :movieID:', [...], false)
+ 2 APPPATH/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('18')
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->delete('18')
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-18 09:47:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `fk_movieID` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON DELETE CASCADE)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `Movie`
+WHERE `movieID` = \'18\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `Movie`
+WHERE `movieID` = \'18\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Movie`
+WHERE `movieID` = :movieID:', [...], false)
+ 4 APPPATH/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+ 5 APPPATH/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('18')
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->delete('18')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-18 09:47:16 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `fk_movieID` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON DELETE CASCADE)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `Movie`
+WHERE `movieID` = \'18\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `Movie`
+WHERE `movieID` = \'18\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `Movie`
+WHERE `movieID` = \'18\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Movie`
+WHERE `movieID` = :movieID:', [...], false)
+ 5 APPPATH/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+ 6 APPPATH/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('18')
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->delete('18')
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-18 09:47:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 09:47:19 --> ErrorException: unlink(posterImg/1702870613_0d70bc94b9e06337dd2a.png): No such file or directory
+in APPPATH/Controllers/MovieController.php on line 101.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(posterImg/1702870613_0d70bc94b9e06337dd2a.png): No such file or directory', '/Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/MovieController.php', 101)
+ 2 APPPATH/Controllers/MovieController.php(101): unlink('posterImg/1702870613_0d70bc94b9e06337dd2a.png')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->delete('20')
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-18 09:47:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 09:47:53 --> ErrorException: unlink(posterImg/1702703559_cfff9b56e51504d7b4a8.png): No such file or directory
+in APPPATH/Controllers/MovieController.php on line 101.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(posterImg/1702703559_cfff9b56e51504d7b4a8.png): No such file or directory', '/Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/MovieController.php', 101)
+ 2 APPPATH/Controllers/MovieController.php(101): unlink('posterImg/1702703559_cfff9b56e51504d7b4a8.png')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->delete('19')
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-18 09:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 09:47:56 --> ErrorException: unlink(posterImg/1702696509_239080d5e2dceb662790.png): No such file or directory
+in APPPATH/Controllers/MovieController.php on line 101.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(posterImg/1702696509_239080d5e2dceb662790.png): No such file or directory', '/Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/MovieController.php', 101)
+ 2 APPPATH/Controllers/MovieController.php(101): unlink('posterImg/1702696509_239080d5e2dceb662790.png')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->delete('18')
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-18 09:47:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-18 09:47:59 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `fk_movieID` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON DELETE CASCADE) in /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `Mo...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `Mo...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `Mo...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Mo...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+#5 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('13')
+#6 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(942): App\Controllers\MovieController->delete('13')
+#7 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2023-12-18 09:47:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `fk_movieID` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON DELETE CASCADE)
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Movie`
+WHERE `movieID` = :movieID:', [...], false)
+ 2 APPPATH/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('13')
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->delete('13')
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-18 09:47:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `fk_movieID` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON DELETE CASCADE)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `Movie`
+WHERE `movieID` = \'13\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `Movie`
+WHERE `movieID` = \'13\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Movie`
+WHERE `movieID` = :movieID:', [...], false)
+ 4 APPPATH/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+ 5 APPPATH/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('13')
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->delete('13')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-18 09:47:59 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bioskop`.`schedule`, CONSTRAINT `fk_movieID` FOREIGN KEY (`movieID`) REFERENCES `movie` (`movieID`) ON DELETE CASCADE)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('DELETE FROM `Movie`
+WHERE `movieID` = \'13\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `Movie`
+WHERE `movieID` = \'13\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `Movie`
+WHERE `movieID` = \'13\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2781): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Movie`
+WHERE `movieID` = :movieID:', [...], false)
+ 5 APPPATH/Models/Movie.php(12): CodeIgniter\Database\BaseBuilder->delete()
+ 6 APPPATH/Controllers/MovieController.php(103): App\Models\Movie->deleteMovie('13')
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->delete('13')
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-18 09:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 09:57:41 --> ErrorException: unlink(posterImg/1702870613_0d70bc94b9e06337dd2a.png): No such file or directory
+in APPPATH/Controllers/MovieController.php on line 101.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(posterImg/1702870613_0d70bc94b9e06337dd2a.png): No such file or directory', '/Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/MovieController.php', 101)
+ 2 APPPATH/Controllers/MovieController.php(101): unlink('posterImg/1702870613_0d70bc94b9e06337dd2a.png')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->delete('20')
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-18 09:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:57:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:57:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:57:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:57:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:58:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:58:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:58:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:58:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:58:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:58:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:58:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:58:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:58:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:58:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:58:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 09:58:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:27:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:27:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-18 10:27:56 --> mysqli_sql_exception: Unknown column 'movieTitle' in 'field list' in /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `sc...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sc...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sc...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseBuilder.php(2301): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sc...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Models/ScheduleModel.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/ScheduleController.php(73): App\Models\ScheduleModel->insertSchedule('16', '7', '2023-12-18T17:2...', '122', 'a', 'Studio 2', NULL, NULL)
+#6 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(942): App\Controllers\ScheduleController->create()
+#7 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2023-12-18 10:27:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'movieTitle' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2301): CodeIgniter\Database\BaseConnection->query('INSERT INTO `schedule` (`movieID`, `studioID`, `showtime`, `price`, `movieTitle`, `studioName`, `capacity`, `generated_seats`) VALUES (:movieID:, :studioID:, :showtime:, :price:, :movieTitle:, :studioName:, :capacity:, :generated_seats:)', [...], false)
+ 2 APPPATH/Models/ScheduleModel.php(28): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH/Controllers/ScheduleController.php(73): App\Models\ScheduleModel->insertSchedule('16', '7', '2023-12-18T17:27', '122', 'a', 'Studio 2', null, null)
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ScheduleController->create()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-18 10:27:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'movieTitle' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `schedule` (`movieID`, `studioID`, `showtime`, `price`, `movieTitle`, `studioName`, `capacity`, `generated_seats`) VALUES (\'16\', \'7\', \'2023-12-18T17:27\', \'122\', \'a\', \'Studio 2\', NULL, NULL)')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `schedule` (`movieID`, `studioID`, `showtime`, `price`, `movieTitle`, `studioName`, `capacity`, `generated_seats`) VALUES (\'16\', \'7\', \'2023-12-18T17:27\', \'122\', \'a\', \'Studio 2\', NULL, NULL)')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2301): CodeIgniter\Database\BaseConnection->query('INSERT INTO `schedule` (`movieID`, `studioID`, `showtime`, `price`, `movieTitle`, `studioName`, `capacity`, `generated_seats`) VALUES (:movieID:, :studioID:, :showtime:, :price:, :movieTitle:, :studioName:, :capacity:, :generated_seats:)', [...], false)
+ 4 APPPATH/Models/ScheduleModel.php(28): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH/Controllers/ScheduleController.php(73): App\Models\ScheduleModel->insertSchedule('16', '7', '2023-12-18T17:27', '122', 'a', 'Studio 2', null, null)
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ScheduleController->create()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-18 10:27:56 --> [Caused by] mysqli_sql_exception: Unknown column 'movieTitle' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `schedule` (`movieID`, `studioID`, `showtime`, `price`, `movieTitle`, `studioName`, `capacity`, `generated_seats`) VALUES (\'16\', \'7\', \'2023-12-18T17:27\', \'122\', \'a\', \'Studio 2\', NULL, NULL)', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `schedule` (`movieID`, `studioID`, `showtime`, `price`, `movieTitle`, `studioName`, `capacity`, `generated_seats`) VALUES (\'16\', \'7\', \'2023-12-18T17:27\', \'122\', \'a\', \'Studio 2\', NULL, NULL)')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `schedule` (`movieID`, `studioID`, `showtime`, `price`, `movieTitle`, `studioName`, `capacity`, `generated_seats`) VALUES (\'16\', \'7\', \'2023-12-18T17:27\', \'122\', \'a\', \'Studio 2\', NULL, NULL)')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2301): CodeIgniter\Database\BaseConnection->query('INSERT INTO `schedule` (`movieID`, `studioID`, `showtime`, `price`, `movieTitle`, `studioName`, `capacity`, `generated_seats`) VALUES (:movieID:, :studioID:, :showtime:, :price:, :movieTitle:, :studioName:, :capacity:, :generated_seats:)', [...], false)
+ 5 APPPATH/Models/ScheduleModel.php(28): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH/Controllers/ScheduleController.php(73): App\Models\ScheduleModel->insertSchedule('16', '7', '2023-12-18T17:27', '122', 'a', 'Studio 2', null, null)
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ScheduleController->create()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-18 10:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:32:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:32:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-18 10:52:40 --> mysqli_sql_exception: Unknown column 'movie.movieTitle' in 'field list' in /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `schedul...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `schedul...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `schedul...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT `schedul...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Models/ScheduleModel.php(36): CodeIgniter\Model->__call('get', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/ScheduleController.php(31): App\Models\ScheduleModel->getScheduleDetails()
+#7 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(942): App\Controllers\ScheduleController->index()
+#8 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+#9 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/bioskop/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#12 {main}
+CRITICAL - 2023-12-18 10:52:40 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'movie.movieTitle' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT `schedule`.`scheduleID`, `movie`.`movieTitle`, `studio`.`studioName`, `schedule`.`showtime`, `schedule`.`price`, `studio`.`capacity`
+FROM `schedule`
+JOIN `movie` ON `movie`.`movieID` = `schedule`.`movieID`
+JOIN `studio` ON `studio`.`studioID` = `schedule`.`studioID`', [], false)
+ 2 SYSTEMPATH/Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Models/ScheduleModel.php(36): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH/Controllers/ScheduleController.php(31): App\Models\ScheduleModel->getScheduleDetails()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ScheduleController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-18 10:52:40 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'movie.movieTitle' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `schedule`.`scheduleID`, `movie`.`movieTitle`, `studio`.`studioName`, `schedule`.`showtime`, `schedule`.`price`, `studio`.`capacity`
+FROM `schedule`
+JOIN `movie` ON `movie`.`movieID` = `schedule`.`movieID`
+JOIN `studio` ON `studio`.`studioID` = `schedule`.`studioID`')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `schedule`.`scheduleID`, `movie`.`movieTitle`, `studio`.`studioName`, `schedule`.`showtime`, `schedule`.`price`, `studio`.`capacity`
+FROM `schedule`
+JOIN `movie` ON `movie`.`movieID` = `schedule`.`movieID`
+JOIN `studio` ON `studio`.`studioID` = `schedule`.`studioID`')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT `schedule`.`scheduleID`, `movie`.`movieTitle`, `studio`.`studioName`, `schedule`.`showtime`, `schedule`.`price`, `studio`.`capacity`
+FROM `schedule`
+JOIN `movie` ON `movie`.`movieID` = `schedule`.`movieID`
+JOIN `studio` ON `studio`.`studioID` = `schedule`.`studioID`', [], false)
+ 4 SYSTEMPATH/Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Models/ScheduleModel.php(36): CodeIgniter\Model->__call('get', [])
+ 6 APPPATH/Controllers/ScheduleController.php(31): App\Models\ScheduleModel->getScheduleDetails()
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ScheduleController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+CRITICAL - 2023-12-18 10:52:40 --> [Caused by] mysqli_sql_exception: Unknown column 'movie.movieTitle' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `schedule`.`scheduleID`, `movie`.`movieTitle`, `studio`.`studioName`, `schedule`.`showtime`, `schedule`.`price`, `studio`.`capacity`
+FROM `schedule`
+JOIN `movie` ON `movie`.`movieID` = `schedule`.`movieID`
+JOIN `studio` ON `studio`.`studioID` = `schedule`.`studioID`', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `schedule`.`scheduleID`, `movie`.`movieTitle`, `studio`.`studioName`, `schedule`.`showtime`, `schedule`.`price`, `studio`.`capacity`
+FROM `schedule`
+JOIN `movie` ON `movie`.`movieID` = `schedule`.`movieID`
+JOIN `studio` ON `studio`.`studioID` = `schedule`.`studioID`')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `schedule`.`scheduleID`, `movie`.`movieTitle`, `studio`.`studioName`, `schedule`.`showtime`, `schedule`.`price`, `studio`.`capacity`
+FROM `schedule`
+JOIN `movie` ON `movie`.`movieID` = `schedule`.`movieID`
+JOIN `studio` ON `studio`.`studioID` = `schedule`.`studioID`')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT `schedule`.`scheduleID`, `movie`.`movieTitle`, `studio`.`studioName`, `schedule`.`showtime`, `schedule`.`price`, `studio`.`capacity`
+FROM `schedule`
+JOIN `movie` ON `movie`.`movieID` = `schedule`.`movieID`
+JOIN `studio` ON `studio`.`studioID` = `schedule`.`studioID`', [], false)
+ 5 SYSTEMPATH/Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Models/ScheduleModel.php(36): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH/Controllers/ScheduleController.php(31): App\Models\ScheduleModel->getScheduleDetails()
+ 8 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ScheduleController->index()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-18 10:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 10:53:17 --> ErrorException: Undefined variable $movies
+in APPPATH/Views/scheduleview.php on line 52.
+ 1 APPPATH/Views/scheduleview.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $movies', '/Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Views/scheduleview.php', 52)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Views/scheduleview.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1172): CodeIgniter\View\View->render('scheduleview', [], true)
+ 5 APPPATH/Controllers/ScheduleController.php(34): view('scheduleview')
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\ScheduleController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-18 10:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 10:56:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 10:56:07 --> ErrorException: Undefined array key "movieTitle"
+in APPPATH/Views/dashboard.php on line 62.
+ 1 APPPATH/Views/dashboard.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "movieTitle"', '/Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Views/dashboard.php', 62)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Views/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1172): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH/Controllers/Home.php(38): view('dashboard')
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-18 10:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 10:56:40 --> ErrorException: Undefined array key "title"
+in APPPATH/Views/dashboard.php on line 62.
+ 1 APPPATH/Views/dashboard.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', '/Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Views/dashboard.php', 62)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Views/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1172): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH/Controllers/Home.php(38): view('dashboard')
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-18 10:59:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:00:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:00:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:00:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:00:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:00:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:00:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:00:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:00:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:00:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:00:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:00:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:03:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:03:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:04:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:04:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:04:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:04:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:05:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:05:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 11:10:54 --> BadMethodCallException: Call to undefined method App\Models\Movie::getDataStudio
+in SYSTEMPATH/Model.php on line 872.
+ 1 APPPATH/Controllers/MovieAPI.php(26): CodeIgniter\Model->__call('getDataStudio', [])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieAPI->index('josua.sinabutar@gmail.com', 'password')
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieAPI))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-18 11:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 11:15:09 --> ErrorException: unlink(posterImg/1702870613_0d70bc94b9e06337dd2a.png): No such file or directory
+in APPPATH/Controllers/MovieController.php on line 101.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(posterImg/1702870613_0d70bc94b9e06337dd2a.png): No such file or directory', '/Applications/XAMPP/xamppfiles/htdocs/bioskop/app/Controllers/MovieController.php', 101)
+ 2 APPPATH/Controllers/MovieController.php(101): unlink('posterImg/1702870613_0d70bc94b9e06337dd2a.png')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\MovieController->delete('20')
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovieController))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/bioskop/public/index.php')
+INFO - 2023-12-18 11:15:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:15:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:15:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:16:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:16:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:16:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:16:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:16:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:16:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:16:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:16:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:16:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:16:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:16:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:16:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:16:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:16:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:16:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:16:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:16:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:16:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:16:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:16:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:17:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:17:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:17:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:17:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:17:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:19:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:21:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 11:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
