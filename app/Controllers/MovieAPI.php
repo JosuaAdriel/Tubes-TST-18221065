@@ -23,7 +23,7 @@ class MovieAPI extends ResourceController
             else { 
                 $model1 = model(Movie::class); 
             $data = ['message' => 'success',
-                    'schedule' => $model1->getDataMovie()];
+                    'movie' => $model1->getDataMovie()];
             return $this->respond($data,200);
     }
     }

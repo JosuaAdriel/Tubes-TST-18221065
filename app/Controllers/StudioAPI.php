@@ -23,7 +23,7 @@ class StudioAPI extends ResourceController
             else { 
                 $model1 = model(StudioModel::class); 
             $data = ['message' => 'success',
-                    'schedule' => $model1->getDataStudio()];
+                    'studio' => $model1->getDataStudio()];
             return $this->respond($data,200);
     }
     }

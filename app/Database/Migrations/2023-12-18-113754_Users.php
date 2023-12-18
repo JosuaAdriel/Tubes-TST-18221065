@@ -9,30 +9,21 @@ class Users extends Migration
     public function up()
     {
         $this->forge->addField([
-            'studioID' => [
-                'type'           => 'INT',
-                'constraint'     => 11,
-                'unsigned'       => true,
-                'auto_increment' => true,
-            ],
-            'studioName' => [
+            'email' => [
                 'type'       => 'VARCHAR',
                 'constraint' => '255',
             ],
-            'status' => [
+            'name' => [
                 'type'       => 'VARCHAR',
                 'constraint' => '255',
             ],
-            'capacity' => [
-                'type'       => 'INT',
-                'constraint' => 11,
-            ],
-            'generated_seats' => [
-                'type'       => 'JSON',
+            'password' => [
+                'type'       => 'VARCHAR',
+                'constraint' => '255',
             ]
         ]);
-        $this->forge->addPrimaryKey('studioID', true);
-        $this->forge->createTable('studio');
+        $this->forge->addKey('email', true);
+        $this->forge->createTable('users');
     }
 
     public function down()

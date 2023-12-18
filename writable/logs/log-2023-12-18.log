@@ -1813,3 +1813,281 @@ INFO - 2023-12-18 11:27:18 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2023-12-18 11:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-12-18 11:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-12-18 11:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-18 15:03:54 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-12-18 15:05:25 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/app/Models/Login.php(12): CodeIgniter\Database\BaseConnection->query('SELECT name FRO...')
+#4 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/app/Controllers/LoginController.php(12): App\Models\Login->getDataUsers('s@gmail.com', 'f970e2767d0cfe7...')
+#5 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/CodeIgniter.php(942): App\Controllers\LoginController->login_action()
+#6 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Commands/Server/rewrite.php(47): require_once('/Users/josuaadr...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/app/Models/Login.php(12): CodeIgniter\Database\BaseConnection->query('SELECT name FRO...')
+#3 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/app/Controllers/LoginController.php(12): App\Models\Login->getDataUsers('s@gmail.com', 'f970e2767d0cfe7...')
+#4 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/CodeIgniter.php(942): App\Controllers\LoginController->login_action()
+#5 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#6 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Commands/Server/rewrite.php(47): require_once('/Users/josuaadr...')
+#9 {main}
+CRITICAL - 2023-12-18 15:05:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/Login.php(12): CodeIgniter\Database\BaseConnection->query('SELECT name FROM users WHERE 
+            email = "s@gmail.com" 
+            AND password = "f970e2767d0cfe75876ea857f92e319b"')
+ 3 APPPATH/Controllers/LoginController.php(12): App\Models\Login->getDataUsers('s@gmail.com', 'f970e2767d0cfe75876ea857f92e319b')
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\LoginController->login_action()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/public/index.php')
+ERROR - 2023-12-18 15:05:53 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-12-18 15:11:33 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Database/MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 /Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+INFO - 2023-12-18 15:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:20:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:20:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:20:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:20:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 15:20:32 --> ErrorException: file_get_contents(http://...@gmail.com/5f4dcc3b5aa765d61d8327deb882cf99): Failed to open stream: Connection refused
+in APPPATH/Controllers/PaymentController.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://...@gmail.com/5f4dcc3b5aa765d61d8327deb882cf99): Failed to open stream: Connection refused', '/Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/app/Controllers/PaymentController.php', 12)
+ 2 APPPATH/Controllers/PaymentController.php(12): file_get_contents('http://localhost:8080/paymentAPI/josua.sinabutar@gmail.com/5f4dcc3b5aa765d61d8327deb882cf99')
+ 3 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\PaymentController->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/public/index.php')
+INFO - 2023-12-18 15:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 15:20:44 --> ErrorException: file_get_contents(http://...@gmail.com/5f4dcc3b5aa765d61d8327deb882cf99): Failed to open stream: Connection refused
+in APPPATH/Controllers/PaymentController.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://...@gmail.com/5f4dcc3b5aa765d61d8327deb882cf99): Failed to open stream: Connection refused', '/Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/app/Controllers/PaymentController.php', 12)
+ 2 APPPATH/Controllers/PaymentController.php(12): file_get_contents('http://localhost:8080/paymentAPI/josua.sinabutar@gmail.com/5f4dcc3b5aa765d61d8327deb882cf99')
+ 3 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\PaymentController->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/public/index.php')
+INFO - 2023-12-18 15:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:23:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:23:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:24:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:24:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:24:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:25:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:25:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:25:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:25:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 15:26:38 --> ErrorException: file_get_contents(http://...@gmail.com/5f4dcc3b5aa765d61d8327deb882cf99): Failed to open stream: Connection refused
+in APPPATH/Controllers/PaymentController.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://...@gmail.com/5f4dcc3b5aa765d61d8327deb882cf99): Failed to open stream: Connection refused', '/Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/app/Controllers/PaymentController.php', 12)
+ 2 APPPATH/Controllers/PaymentController.php(12): file_get_contents('http://localhost:8080/paymentAPI/josua.sinabutar@gmail.com/5f4dcc3b5aa765d61d8327deb882cf99')
+ 3 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\PaymentController->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/public/index.php')
+INFO - 2023-12-18 15:26:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:26:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:26:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:27:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:27:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:27:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:27:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:27:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:27:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:27:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:28:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:28:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:28:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:28:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 15:28:55 --> ErrorException: file_get_contents(http://...@gmail.com/5f4dcc3b5aa765d61d8327deb882cf99): Failed to open stream: Connection refused
+in APPPATH/Controllers/PaymentController.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://...@gmail.com/5f4dcc3b5aa765d61d8327deb882cf99): Failed to open stream: Connection refused', '/Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/app/Controllers/PaymentController.php', 12)
+ 2 APPPATH/Controllers/PaymentController.php(12): file_get_contents('http://localhost:8080/paymentAPI/josua.sinabutar@gmail.com/5f4dcc3b5aa765d61d8327deb882cf99')
+ 3 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\PaymentController->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/public/index.php')
+INFO - 2023-12-18 15:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:29:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:29:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:31:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:31:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:31:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:32:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:32:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:32:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:33:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:33:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:34:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:34:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 15:34:28 --> ErrorException: file_get_contents(http://...@gmail.com/5f4dcc3b5aa765d61d8327deb882cf99): Failed to open stream: Connection refused
+in APPPATH/Controllers/PaymentController.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://...@gmail.com/5f4dcc3b5aa765d61d8327deb882cf99): Failed to open stream: Connection refused', '/Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/app/Controllers/PaymentController.php', 12)
+ 2 APPPATH/Controllers/PaymentController.php(12): file_get_contents('http://localhost:8080/paymentAPI/josua.sinabutar@gmail.com/5f4dcc3b5aa765d61d8327deb882cf99')
+ 3 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\PaymentController->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/public/index.php')
+INFO - 2023-12-18 15:34:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:35:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:35:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:35:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-18 15:35:32 --> ErrorException: file_get_contents(http://...@gmail.com/5f4dcc3b5aa765d61d8327deb882cf99): Failed to open stream: Connection refused
+in APPPATH/Controllers/PaymentController.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://...@gmail.com/5f4dcc3b5aa765d61d8327deb882cf99): Failed to open stream: Connection refused', '/Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/app/Controllers/PaymentController.php', 12)
+ 2 APPPATH/Controllers/PaymentController.php(12): file_get_contents('http://localhost:8080/paymentAPI/josua.sinabutar@gmail.com/5f4dcc3b5aa765d61d8327deb882cf99')
+ 3 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\PaymentController->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/josuaadrielsinabutar/Documents/GitHub/Tubes-TST-18221065/public/index.php')
+INFO - 2023-12-18 15:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:35:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:36:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:36:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-18 15:36:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -28,7 +28,7 @@ class StudioController extends ResourceController
     {
         $generatedSeats = [];
         $rows = range('A', 'J');
-        $seatsPerRow = ceil($capacity / count($rows)); // Calculate seats per row
+        $seatsPerRow = ceil($capacity / count($rows));
         
         foreach ($rows as $row) {
             for ($j = 1; $j <= $seatsPerRow && count($generatedSeats) < $capacity; $j++) {
@@ -36,7 +36,6 @@ class StudioController extends ResourceController
             }
         }
         
-        // If there's any remaining capacity, distribute it across rows
         $remaining = $capacity - count($generatedSeats);
         if ($remaining > 0) {
             $index = 0;
@@ -53,7 +52,6 @@ class StudioController extends ResourceController
     {
         $studioName = esc($this->request->getPost('studioName'));
 
-        // Check if the studio name already exists
         $existingStudio = $this->studioModel->where('studioName', $studioName)->first();
     
         if ($existingStudio !== null) {
@@ -62,12 +60,10 @@ class StudioController extends ResourceController
 
         $capacity = $this->request->getPost('capacity');
     
-        // Validate the capacity value
         if (!is_numeric($capacity) || $capacity <= 0 || $capacity > 100) {
             return redirect()->to(base_url('studio'))->with('invalidCapacity', 'Invalid capacity. Please provide a value between 1 and 100!');
         }
     
-        // Insert data into the studio table
         $data = [
             'studioName' => $studioName,
             'status' => esc($this->request->getPost('status')),
@@ -82,14 +78,14 @@ class StudioController extends ResourceController
 
     public function update($studioID = null)
     {
-        // Get input data
+
         $capacity = $this->request->getPost('capacity');
         $availability = $this->request->getPost('availability');
 
-        // Fetch the existing studio details
+
         $studio = $this->studioModel->findStudioByID($studioID);
 
-        // Prepare update data
+
         $updateData = [];
         if (!empty($capacity)) {
             $updateData['capacity'] = $capacity;
@@ -99,7 +95,6 @@ class StudioController extends ResourceController
             $updateData['status'] = $availability;
         }
 
-        // Perform update only if there's any data to update
         if (!empty($updateData)) {
             $this->studioModel->where('studioID', $studioID)->set($updateData)->update();
             return redirect()->to(base_url('studio'))->with('successUpdateStudio', 'Studio updated successfully.');

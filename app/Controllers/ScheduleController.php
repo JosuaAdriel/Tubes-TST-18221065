@@ -16,7 +16,7 @@ class ScheduleController extends BaseController
 
     public function __construct()
     {
-        $this->movieModel = new Movie(); // Initialize the Movie model
+        $this->movieModel = new Movie(); 
         $this->studioModel = new StudioModel();
         $this->scheduleModel = new ScheduleModel();
     }
@@ -26,7 +26,6 @@ class ScheduleController extends BaseController
         if (session()->get('num_user') == '') {
             return redirect()->to('/login');
             }      
-        // Fetch available movies, studios, and other required data
         $movieModel = new Movie();
         $studioModel = new StudioModel();
         $scheduleModel = new ScheduleModel();
@@ -35,40 +34,36 @@ class ScheduleController extends BaseController
         $data['studios'] = $studioModel->where('status', 1)->findAll();
         $data['schedules'] = $scheduleModel->findAll(); 
 
-        // Load the view with data
         return view('layoutatas', $data).view('scheduleview').view('layoutbawah');
     }
 
     public function create()
     {
-        // Fetch the necessary data for the selected movie and studio
         $movieID = $this->request->getVar('movieID');
         $studioID = $this->request->getVar('studioID');
         $showtime = $this->request->getVar('showtime');
         $price = $this->request->getVar('price');
     
-        // Fetch movie title and studio name from their respective tables
         $movie = $this->movieModel->findMovieByID($movieID);
 
-        // Calculate end time of the new schedule
+        // Hitung waktu selesai
         $endTime = date('Y-m-d H:i:s', strtotime($showtime . ' + ' . $movie['durationInMins'] . ' minutes'));
         $existingSchedules = $this->scheduleModel->getSchedulesForStudio($studioID);
 
-        // Check for overlap with existing schedules
+        // Cek apakah studio tersedia di waktu yang dipilih
         foreach ($existingSchedules as $schedule) {
             $movieDuration = $this->movieModel->findMovieByID($schedule['movieID'])['durationInMins'];
             $scheduleEndTime = date('Y-m-d H:i:s', strtotime($schedule['showtime'] . ' + ' . ($movieDuration + 30) . ' minutes'));
         
-            // Check if the new schedule overlaps with an existing one
+            // Cek apakah waktu yang dipilih berada di antara waktu yang sudah ada di database
             if (($showtime >= $schedule['showtime'] && $showtime <= $scheduleEndTime) ||
                 ($endTime >= $schedule['showtime'] && $endTime <= $scheduleEndTime) ||
                 ($showtime <= $schedule['showtime'] && $endTime >= $scheduleEndTime)) {
-                // Overlapping schedules found
+                // schedule ada yang overlap
                 return redirect()->to(base_url('schedule'))->with('errorAddSchedule', 'Studio is not available at that showtime!');
             }
         }
-
-        // Insert data into the relation table
+        
         $this->scheduleModel->insertSchedule($movieID, $studioID, $showtime, $price);
         return redirect()->to(base_url('schedule'))->with('successAddSchedule', 'Relation is created! Check the schedule list on dashboard page.');
     }

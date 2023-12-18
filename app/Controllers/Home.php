@@ -25,11 +25,9 @@ class Home extends BaseController
         if (session()->get('num_user') == '') {
             return redirect()->to('/login');
             }      
-        // Fetch available movies, studios, and other required data
         $scheduleModel = new ScheduleModel();
         $data['schedules'] = $scheduleModel->getScheduleDetails(); 
 
-        // Load the view with data
         return view('layoutatas', $data).view('dashboard').view('layoutbawah');
     }
 
