@@ -1,3 +1,7 @@
+# Sistem Pembelian Tiket dan Manajemen Data Terintegrasi Cinemax
+
+Kedua sistem ini terintegrasi dengan saling mengakses layanan _core_ dari masing-masing domain sistem. Sistem manajemen data memberikan data film, studio, harga, dan jadwal penayangan yang tersedia bagi bioskop. Data ini diakses oleh sistem pembelian tiket dan ditampilkan bagi pengguna. Pengguna akan membeli tiket dengan jadwal tertentu dan daftar transaksi yang terjadi diakses kembali oleh sistem manajemen data untuk ditampilkan bagi admin.
+
 # Panduan Penggunaan Sistem Pembelian Tiket dan Manajemen Data Cinemax
 
 Ini adalah panduan untuk menggunakan Sistem Pembelian Tiket dan Manajemen Data Cinemax, dua domain yang berbeda dan terintegrasi.
